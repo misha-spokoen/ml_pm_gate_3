@@ -1,0 +1,41 @@
+{
+  "rules": {
+    "selected": 1000,
+    "treatment": 900,
+    "control": 100,
+    "offer_cost": 2970,
+    "spend": 2673000,
+    "mean_true_uplift": 0.0907206133870112,
+    "saved_revenue": 4898913.122898607,
+    "revenue_per_budget": 1.8327396643840652,
+    "contribution": 2449456.5614493033,
+    "net_before_operations": -223543.4385506967,
+    "holdout_evaluation": "Expected over random allocation of 10% control"
+  },
+  "risk": {
+    "selected": 1000,
+    "treatment": 900,
+    "control": 100,
+    "offer_cost": 2970,
+    "spend": 2673000,
+    "mean_true_uplift": 0.22817826238966654,
+    "saved_revenue": 12321626.169041993,
+    "revenue_per_budget": 4.60966186645791,
+    "contribution": 6160813.084520997,
+    "net_before_operations": 3487813.0845209965,
+    "holdout_evaluation": "Expected over random allocation of 10% control"
+  },
+  "uplift_value": {
+    "selected": 1000,
+    "treatment": 900,
+    "control": 100,
+    "offer_cost": 2970,
+    "spend": 2673000,
+    "mean_true_uplift": 0.23195602817634073,
+    "saved_revenue": 12525625.521522397,
+    "revenue_per_budget": 4.685980367198802,
+    "contribution": 6262812.760761199,
+    "net_before_operations": 3589812.7607611986,
+    "holdout_evaluation": "Expected over random allocation of 10% control"
+  }
+}

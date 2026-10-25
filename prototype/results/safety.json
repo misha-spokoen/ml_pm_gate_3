@@ -1,0 +1,132 @@
+[
+  {
+    "case": 1,
+    "title": "Фильтр 115-ФЗ до модели",
+    "passed": true,
+    "evidence": {
+      "flagged_total": 1230,
+      "scored_flagged": 0
+    }
+  },
+  {
+    "case": 2,
+    "title": "Сезонное падение не повышает скор",
+    "passed": false,
+    "evidence": {
+      "paired_scores": [
+        0.058823529411764705,
+        0.07567567567567567
+      ],
+      "increase": 0.01685214626391096,
+      "tolerance": 1e-08,
+      "note": "Strict Gate 2 requirement; a small increase is still reported as a failure."
+    }
+  },
+  {
+    "case": 3,
+    "title": "Срез и зрелость таргета",
+    "passed": true,
+    "evidence": {
+      "feature_dates_before_cutoff": true,
+      "embargo": true,
+      "future_mutation_invariant": true,
+      "note": "Column lineage and mutation tests; not a complete real-DWH leakage audit."
+    }
+  },
+  {
+    "case": 4,
+    "title": "Разрыв полноты по отраслям и регионам ≤5 п.п.",
+    "passed": false,
+    "evidence": {
+      "groups": {
+        "construction": {
+          "n": 2367,
+          "positive": 421,
+          "recall": 0.37767220902612825,
+          "brier": 0.10596532009312745
+        },
+        "services": {
+          "n": 2467,
+          "positive": 438,
+          "recall": 0.3881278538812785,
+          "brier": 0.10807054132534843
+        },
+        "trade": {
+          "n": 2475,
+          "positive": 419,
+          "recall": 0.3532219570405728,
+          "brier": 0.10841702096351997
+        }
+      },
+      "recall_gap": 0.03490589684070572,
+      "regions": {
+        "A": {
+          "n": 2431,
+          "positive": 436,
+          "recall": 0.3577981651376147,
+          "brier": 0.1084027586957858
+        },
+        "B": {
+          "n": 2450,
+          "positive": 386,
+          "recall": 0.33678756476683935,
+          "brier": 0.10457985670155379
+        },
+        "C": {
+          "n": 2428,
+          "positive": 456,
+          "recall": 0.41885964912280704,
+          "brier": 0.1095610830669346
+        }
+      },
+      "region_recall_gap": 0.08207208435596769
+    }
+  },
+  {
+    "case": 5,
+    "title": "Оффер не увеличивает текущую плату",
+    "passed": true,
+    "evidence": {
+      "grid": 48,
+      "rejected": 18
+    }
+  },
+  {
+    "case": 6,
+    "title": "Детерминированный расчёт экономии",
+    "passed": true,
+    "evidence": {
+      "golden_cases": 5,
+      "passed": 5
+    }
+  },
+  {
+    "case": 7,
+    "title": "Не более одного оффера за 30 дней",
+    "passed": true,
+    "evidence": {
+      "duplicates": 0,
+      "recent_in_campaign": 0
+    }
+  },
+  {
+    "case": 8,
+    "title": "Переход в Точку исключён",
+    "passed": true,
+    "evidence": {
+      "excluded_known_migrations": 877,
+      "note": "Scenario business rule from Gate 2; current group ownership is not asserted."
+    }
+  },
+  {
+    "case": 9,
+    "title": "Сдвиг распределения → сигнал и остановка",
+    "passed": true,
+    "evidence": {
+      "psi": 10.360509748110774,
+      "threshold": 0.2,
+      "campaign_blocked": true,
+      "note": "Detection and blocking are exercised; retraining/revalidation remains a human workflow."
+    }
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "source": {
+    "dataset": "Iranian Churn",
+    "source": "https://archive.ics.uci.edu/dataset/563/iranian+churn+dataset",
+    "download_url": "https://archive.ics.uci.edu/static/public/563/iranian+churn+dataset.zip",
+    "doi": "10.24432/C5JW3Z",
+    "license": "CC BY 4.0",
+    "accessed": "2026-10-25",
+    "sha256": "90d5fb6bd1630cd4de4b4d28fcf8b4cb92a8f6ab7484605b0799d47386f7dbe1",
+    "bytes": 131728,
+    "note": "Real anonymized telecom observations. Not RKO; no dates or randomized actions. All attributes first 9 months, outcome end of month 12."
+  },
+  "rows": 3150,
+  "train": 2355,
+  "test": 795,
+  "unique_feature_groups": 2785,
+  "feature_columns": [
+    "Call Failure",
+    "Complains",
+    "Subscription Length",
+    "Charge Amount",
+    "Seconds of Use",
+    "Frequency of use",
+    "Frequency of SMS",
+    "Distinct Called Numbers",
+    "Tariff Plan"
+  ],
+  "group_overlap": 0,
+  "excluded": [
+    "Status",
+    "Customer Value",
+    "Age",
+    "Age Group"
+  ],
+  "ml": {
+    "n": 795,
+    "positives": 124,
+    "k": 80,
+    "prevalence": 0.1559748427672956,
+    "precision_at_10": 0.925,
+    "lift_at_10": 5.930443548387097,
+    "recall_at_10": 0.5967741935483871,
+    "brier": 0.04148346950020847,
+    "auc": 0.9761850391808087
+  },
+  "rules": {
+    "n": 795,
+    "positives": 124,
+    "k": 80,
+    "prevalence": 0.1559748427672956,
+    "precision_at_10": 0.625,
+    "lift_at_10": 4.007056451612903,
+    "recall_at_10": 0.4032258064516129,
+    "brier": 0.08835245995647961,
+    "auc": 0.8166494399307725
+  },
+  "precision_difference_ci95": [
+    0.17494598765432093,
+    0.4103124999999999
+  ],
+  "ci_method": "Paired cluster bootstrap by identical feature vectors, 400 resamples",
+  "split": "Group-disjoint stratified holdout, not a calendar out-of-time test.",
+  "limitations": "Telecom in Iran, 3-month target, no action logs, no raw dates. Not RKO value or uplift evidence."
+}

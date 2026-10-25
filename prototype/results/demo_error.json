@@ -1,0 +1,7 @@
+{
+  "client_id": "SYN-040090",
+  "predicted_risk": 0.9259259259259259,
+  "observed_churn": 0,
+  "type": "False positive in the selected top 10%",
+  "explanation": "A high risk is a probability, not an observed departure. One realized non-event does not prove a probability is miscalibrated."
+}

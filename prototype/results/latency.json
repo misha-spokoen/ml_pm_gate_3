@@ -1,0 +1,28 @@
+{
+  "single_two_risks": {
+    "p50_seconds": 0.0014981040003476664,
+    "p95_seconds": 0.0016122353947139346,
+    "repeats": 20
+  },
+  "batch_all_models": {
+    "p50_seconds": 0.0329493330209516,
+    "p95_seconds": 0.044278866300010114,
+    "repeats": 7
+  },
+  "sample_n": 7309,
+  "thread_count": 4,
+  "training_risk_seconds": 6.482474040996749,
+  "training_uplift_seconds": 2.834963457979029,
+  "machine": "arm64",
+  "system": "Darwin",
+  "python": "3.12.14",
+  "actual_1m_all_models_seconds": 3.1235896250000224,
+  "cost_inputs": {
+    "cpu_rub_hour": 20,
+    "hours_month": 730,
+    "pricing": "planning assumption, not a provider quote"
+  },
+  "compute_rub_per_prediction": 1.735327569444457e-08,
+  "always_on_cpu_month_rub": 14600,
+  "daily_batch_cpu_month_rub": 0.5205982708333371
+}

@@ -1,0 +1,15 @@
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.ipynb text eol=lf
+*.pdf binary
+*.jpg binary
+*.png binary
+*.npz binary
+*.gz binary
+*.pkl binary
+*.cbm binary
+prototype/data/public/*.csv -text

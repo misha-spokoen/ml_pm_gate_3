@@ -1,0 +1,29 @@
+{
+  "1": {
+    "n": 3618,
+    "treated": 1853,
+    "qini_normalized": 0.04489358607564665,
+    "auuc_normalized": 0.0873412394800358,
+    "spearman_true_effect": 0.7783316955334688,
+    "observed_ate": 0.0803064932602976,
+    "true_ate": 0.06831312739188825
+  },
+  "2": {
+    "n": 3567,
+    "treated": 1802,
+    "qini_normalized": 0.036703949945801034,
+    "auuc_normalized": 0.06812740454720392,
+    "spearman_true_effect": 0.6654002211130544,
+    "observed_ate": 0.06005885811484246,
+    "true_ate": 0.06493590543115388
+  },
+  "3": {
+    "n": 3654,
+    "treated": 1889,
+    "qini_normalized": 0.020659989900729873,
+    "auuc_normalized": 0.036295109652655574,
+    "spearman_true_effect": 0.6125682482033463,
+    "observed_ate": 0.008928386648810682,
+    "true_ate": 0.02189804922844259
+  }
+}

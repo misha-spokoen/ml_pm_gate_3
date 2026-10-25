@@ -1,0 +1,512 @@
+[
+  {
+    "client_id": "SYN-044643",
+    "contributions": [
+      {
+        "feature": "fee_shock",
+        "log_odds": 1.2613077672258517
+      },
+      {
+        "feature": "days_no_incoming",
+        "log_odds": 1.1028109111835773
+      },
+      {
+        "feature": "turnover_ratio",
+        "log_odds": 0.8533327089277981
+      }
+    ]
+  },
+  {
+    "client_id": "SYN-045582",
+    "contributions": [
+      {
+        "feature": "complaints",
+        "log_odds": 2.5224479066459806
+      },
+      {
+        "feature": "fee_shock",
+        "log_odds": 1.0844977509862563
+      },
+      {
+        "feature": "services",
+        "log_odds": 0.7681748178955329
+      }
+    ]
+  },
+  {
+    "client_id": "SYN-041176",
+    "contributions": [
+      {
+        "feature": "fee_shock",
+        "log_odds": 1.2289879726142556
+      },
+      {
+        "feature": "self_transfer_share",
+        "log_odds": 1.0088355490886076
+      },
+      {
+        "feature": "services",
+        "log_odds": 0.7961145795647006
+      }
+    ]
+  },
+  {
+    "client_id": "SYN-049899",
+    "contributions": [
+      {
+        "feature": "fee_shock",
+        "log_odds": 1.3115884518418761
+      },
+      {
+        "feature": "days_no_incoming",
+        "log_odds": 1.2062704267230235
+      },
+      {
+        "feature": "services",
+        "log_odds": 0.8986359891662072
+      }
+    ]
+  },
+  {
+    "client_id": "SYN-045110",
+    "contributions": [
+      {
+        "feature": "complaints",
+        "log_odds": 1.9120059596370333
+      },
+      {
+        "feature": "fee_shock",
+        "log_odds": 1.1027115979151745
+      },
+      {
+        "feature": "days_no_incoming",
+        "log_odds": 1.054622867503366
+      }
+    ]
+  },
+  {
+    "client_id": "SYN-048410",
+    "contributions": [
+      {
+        "feature": "fee_shock",
+        "log_odds": 1.2705915867820745
+      },
+      {
+        "feature": "self_transfer_share",
+        "log_odds": 1.0395113894790105
+      },
+      {
+        "feature": "services",
+        "log_odds": 0.7888205526479681
+      }
+    ]
+  },
+  {
+    "client_id": "SYN-042375",
+    "contributions": [
+      {
+        "feature": "fee_shock",
+        "log_odds": 1.2606952371121216
+      },
+      {
+        "feature": "days_no_incoming",
+        "log_odds": 1.0608047554978584
+      },
+      {
+        "feature": "turnover_ratio",
+        "log_odds": 0.8472155568567402
+      }
+    ]
+  },
+  {
+    "client_id": "SYN-047318",
+    "contributions": [
+      {
+        "feature": "complaints",
+        "log_odds": 1.2477818017042703
+      },
+      {
+        "feature": "fee_shock",
+        "log_odds": 1.1312133682504124
+      },
+      {
+        "feature": "services",
+        "log_odds": 0.7880552131439572
+      }
+    ]
+  },
+  {
+    "client_id": "SYN-042440",
+    "contributions": [
+      {
+        "feature": "complaints",
+        "log_odds": 1.443419361985162
+      },
+      {
+        "feature": "fee_shock",
+        "log_odds": 1.0745950679121057
+      },
+      {
+        "feature": "self_transfer_share",
+        "log_odds": 0.9817439815551686
+      }
+    ]
+  },
+  {
+    "client_id": "SYN-049821",
+    "contributions": [
+      {
+        "feature": "complaints",
+        "log_odds": 2.2552176348901773
+      },
+      {
+        "feature": "fee_shock",
+        "log_odds": 1.1347709331172335
+      },
+      {
+        "feature": "services",
+        "log_odds": 0.6832557929719707
+      }
+    ]
+  },
+  {
+    "client_id": "SYN-047086",
+    "contributions": [
+      {
+        "feature": "fee_shock",
+        "log_odds": 1.2251478333229835
+      },
+      {
+        "feature": "days_no_incoming",
+        "log_odds": 1.0883430097278846
+      },
+      {
+        "feature": "self_transfer_share",
+        "log_odds": 0.8942252859497908
+      }
+    ]
+  },
+  {
+    "client_id": "SYN-045170",
+    "contributions": [
+      {
+        "feature": "complaints",
+        "log_odds": 1.9283944812895524
+      },
+      {
+        "feature": "fee_shock",
+        "log_odds": 1.065753432089788
+      },
+      {
+        "feature": "self_transfer_share",
+        "log_odds": 0.7172085278080607
+      }
+    ]
+  },
+  {
+    "client_id": "SYN-043508",
+    "contributions": [
+      {
+        "feature": "complaints",
+        "log_odds": 2.1522483980323326
+      },
+      {
+        "feature": "fee_shock",
+        "log_odds": 1.0558628016777136
+      },
+      {
+        "feature": "self_transfer_share",
+        "log_odds": 0.7604037577513404
+      }
+    ]
+  },
+  {
+    "client_id": "SYN-042147",
+    "contributions": [
+      {
+        "feature": "complaints",
+        "log_odds": 1.5480395798324118
+      },
+      {
+        "feature": "fee_shock",
+        "log_odds": 1.0665864549918311
+      },
+      {
+        "feature": "services",
+        "log_odds": 0.6837046830184111
+      }
+    ]
+  },
+  {
+    "client_id": "SYN-045180",
+    "contributions": [
+      {
+        "feature": "days_no_incoming",
+        "log_odds": 1.309192552757224
+      },
+      {
+        "feature": "complaints",
+        "log_odds": 1.2440893601609146
+      },
+      {
+        "feature": "fee_shock",
+        "log_odds": 1.1357734224649152
+      }
+    ]
+  },
+  {
+    "client_id": "SYN-045126",
+    "contributions": [
+      {
+        "feature": "fee_shock",
+        "log_odds": 1.2933693043062418
+      },
+      {
+        "feature": "services",
+        "log_odds": 0.7590233217258575
+      },
+      {
+        "feature": "turnover_ratio",
+        "log_odds": 0.7466458885685687
+      }
+    ]
+  },
+  {
+    "client_id": "SYN-042170",
+    "contributions": [
+      {
+        "feature": "fee_shock",
+        "log_odds": 1.2725096687770905
+      },
+      {
+        "feature": "days_no_incoming",
+        "log_odds": 1.0282597748699787
+      },
+      {
+        "feature": "services",
+        "log_odds": 0.8348825663309282
+      }
+    ]
+  },
+  {
+    "client_id": "SYN-041360",
+    "contributions": [
+      {
+        "feature": "days_no_incoming",
+        "log_odds": 1.2981748564453222
+      },
+      {
+        "feature": "fee_shock",
+        "log_odds": 1.2956610233049755
+      },
+      {
+        "feature": "services",
+        "log_odds": 0.9853588015850896
+      }
+    ]
+  },
+  {
+    "client_id": "SYN-048394",
+    "contributions": [
+      {
+        "feature": "complaints",
+        "log_odds": 1.6802249254843682
+      },
+      {
+        "feature": "fee_shock",
+        "log_odds": 1.0976283470951265
+      },
+      {
+        "feature": "services",
+        "log_odds": 0.6565253147909353
+      }
+    ]
+  },
+  {
+    "client_id": "SYN-048863",
+    "contributions": [
+      {
+        "feature": "complaints",
+        "log_odds": 1.2534184269598811
+      },
+      {
+        "feature": "fee_shock",
+        "log_odds": 1.090577706872217
+      },
+      {
+        "feature": "self_transfer_share",
+        "log_odds": 0.8601150719901488
+      }
+    ]
+  },
+  {
+    "client_id": "SYN-043961",
+    "contributions": [
+      {
+        "feature": "self_transfer_share",
+        "log_odds": 1.4841765545014582
+      },
+      {
+        "feature": "fee_shock",
+        "log_odds": 1.1393030331275336
+      },
+      {
+        "feature": "turnover_ratio",
+        "log_odds": 0.8357953827513833
+      }
+    ]
+  },
+  {
+    "client_id": "SYN-044797",
+    "contributions": [
+      {
+        "feature": "complaints",
+        "log_odds": 2.6709006640610453
+      },
+      {
+        "feature": "fee_shock",
+        "log_odds": 1.1078345163009697
+      },
+      {
+        "feature": "self_transfer_share",
+        "log_odds": 0.901155999354058
+      }
+    ]
+  },
+  {
+    "client_id": "SYN-041508",
+    "contributions": [
+      {
+        "feature": "fee_shock",
+        "log_odds": 1.2520298003822377
+      },
+      {
+        "feature": "self_transfer_share",
+        "log_odds": 0.7209862246218158
+      },
+      {
+        "feature": "services",
+        "log_odds": 0.7132851592652193
+      }
+    ]
+  },
+  {
+    "client_id": "SYN-044375",
+    "contributions": [
+      {
+        "feature": "fee_shock",
+        "log_odds": 1.1862925690833754
+      },
+      {
+        "feature": "days_no_incoming",
+        "log_odds": 1.1213790878798697
+      },
+      {
+        "feature": "self_transfer_share",
+        "log_odds": 0.8484979719087281
+      }
+    ]
+  },
+  {
+    "client_id": "SYN-049187",
+    "contributions": [
+      {
+        "feature": "complaints",
+        "log_odds": 1.6469095757665992
+      },
+      {
+        "feature": "self_transfer_share",
+        "log_odds": 1.2583731447251045
+      },
+      {
+        "feature": "fee_shock",
+        "log_odds": 1.1368663997946948
+      }
+    ]
+  },
+  {
+    "client_id": "SYN-048107",
+    "contributions": [
+      {
+        "feature": "self_transfer_share",
+        "log_odds": 1.3591450707035246
+      },
+      {
+        "feature": "fee_shock",
+        "log_odds": 1.2046322515047463
+      },
+      {
+        "feature": "days_no_incoming",
+        "log_odds": 1.0264076112005203
+      }
+    ]
+  },
+  {
+    "client_id": "SYN-042896",
+    "contributions": [
+      {
+        "feature": "complaints",
+        "log_odds": 1.2851929859185596
+      },
+      {
+        "feature": "fee_shock",
+        "log_odds": 1.1196602043141877
+      },
+      {
+        "feature": "services",
+        "log_odds": 0.6974063450467884
+      }
+    ]
+  },
+  {
+    "client_id": "SYN-044514",
+    "contributions": [
+      {
+        "feature": "fee_shock",
+        "log_odds": 1.251423002467027
+      },
+      {
+        "feature": "turnover_ratio",
+        "log_odds": 0.7251522392109052
+      },
+      {
+        "feature": "season_adjusted_ratio",
+        "log_odds": 0.717868874335828
+      }
+    ]
+  },
+  {
+    "client_id": "SYN-049048",
+    "contributions": [
+      {
+        "feature": "complaints",
+        "log_odds": 1.202862612821781
+      },
+      {
+        "feature": "fee_shock",
+        "log_odds": 1.1152006253800508
+      },
+      {
+        "feature": "services",
+        "log_odds": 0.6859551641198804
+      }
+    ]
+  },
+  {
+    "client_id": "SYN-043284",
+    "contributions": [
+      {
+        "feature": "fee_shock",
+        "log_odds": 1.1487766450447743
+      },
+      {
+        "feature": "turnover_ratio",
+        "log_odds": 0.7811358322281708
+      },
+      {
+        "feature": "season_adjusted_ratio",
+        "log_odds": 0.726584112510491
+      }
+    ]
+  }
+]

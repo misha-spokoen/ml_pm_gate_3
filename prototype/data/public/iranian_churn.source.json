@@ -1,0 +1,11 @@
+{
+  "dataset": "Iranian Churn",
+  "source": "https://archive.ics.uci.edu/dataset/563/iranian+churn+dataset",
+  "download_url": "https://archive.ics.uci.edu/static/public/563/iranian+churn+dataset.zip",
+  "doi": "10.24432/C5JW3Z",
+  "license": "CC BY 4.0",
+  "accessed": "2026-10-25",
+  "sha256": "90d5fb6bd1630cd4de4b4d28fcf8b4cb92a8f6ab7484605b0799d47386f7dbe1",
+  "bytes": 131728,
+  "note": "Real anonymized telecom observations. Not RKO; no dates or randomized actions. All attributes first 9 months, outcome end of month 12."
+}

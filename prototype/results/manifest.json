@@ -1,0 +1,68 @@
+{
+  "seed": 20261025,
+  "clients": 50000,
+  "months": 24,
+  "panel_rows": 1200000,
+  "eligible": 36268,
+  "splits": {
+    "train": {
+      "n": 21684,
+      "cutoff_min": "2024-07-01",
+      "cutoff_max": "2024-09-01",
+      "label_available_max": "2024-12-30"
+    },
+    "calibration": {
+      "n": 7275,
+      "cutoff_min": "2025-02-01",
+      "cutoff_max": "2025-03-01",
+      "label_available_max": "2025-06-29"
+    },
+    "test": {
+      "n": 7309,
+      "cutoff_min": "2025-09-01",
+      "cutoff_max": "2025-09-01",
+      "label_available_max": "2025-12-30"
+    }
+  },
+  "features": [
+    "turnover_ratio",
+    "season_adjusted_ratio",
+    "yoy_ratio",
+    "days_no_incoming",
+    "fee_shock",
+    "fee_burden",
+    "self_transfer_share",
+    "complaints",
+    "services",
+    "tenure",
+    "industry",
+    "region",
+    "tariff",
+    "payments",
+    "cash_buffer"
+  ],
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "catboost": "1.2.10",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "scikit-uplift": "0.5.1"
+  },
+  "research": {
+    "n": 200,
+    "churn": 180,
+    "manageable": 100,
+    "share_among_churn": 0.5555555555555556,
+    "gate2_threshold_decision_in_scenario": "Go",
+    "human_interviews": 0,
+    "scenario_interviews": 5,
+    "human_double_annotation_kappa": null,
+    "unique_texts": 13,
+    "use": "Exercise coding guide and decision rules, not estimate population reason shares."
+  },
+  "model_bytes": 830387,
+  "elapsed_seconds": 19.761193542013643,
+  "data_kind": "Educational simulation + separate UCI real telecom benchmark",
+  "test_used_for_tuning": false
+}

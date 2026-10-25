@@ -1,0 +1,67 @@
+{
+  "checked_on": "2026-10-25",
+  "program_tests": {
+    "passed": 11,
+    "command": "python -m unittest discover -s prototype/tests -v"
+  },
+  "notebook_executed_cells": 6,
+  "assignment_sections_present": [
+    "A1",
+    "A2",
+    "B1",
+    "B2",
+    "C1",
+    "D1",
+    "D2",
+    "D3",
+    "E1",
+    "E2",
+    "F1",
+    "G1",
+    "self_assessment",
+    "recommendation"
+  ],
+  "local_links_missing": [],
+  "preserved_sources": {
+    "AGENTS.md": "45036f58cfb6c1b477e8d195b00e30be0ae1559ed2b2e9b00e58d1c952ab9944",
+    "Gate 2_ Concept Validation — удержание клиентов РКО Т‑Бизнеса.pdf": "ed568a62c65209058959b7864628857ee4254c3f385bc58d031ab01a72ee1b02",
+    "Неделя 3_Управление ML продуктами_ДЗ_014f1b27.pdf": "0849ea0378de8827fcbf34b01b307c962ff835586b6f99f006f09a83e7e78572",
+    "Сквозные кейсы — инструкция для студентов_0141624a.pdf": "842e161e5baffc8058ff8d998ee9f58a4035323cafa85f3f45dab72570bb327c",
+    "Gate 1 Ideation — прогноз оттока premium-подписки брокерского приложения.md": "fb025e53640759546678e9f6d1d31fd47bf74264de54bdde327f4a4c9350e5d9"
+  },
+  "ui_verified": [
+    "client scoring and price recalculation",
+    "lower tariff price trap",
+    "budget 300000 and spend 262982",
+    "exclusion before scoring",
+    "false positive SYN-040090"
+  ],
+  "ui_scope": "Live local browser interactions; no real client messages sent",
+  "changed_existing_files": [
+    "PROJECT_CONTEXT.md"
+  ],
+  "key_source_sha256": {
+    "prototype/run.py": "83953f1d74cdac0ec56b755a7d013be94010f11dcfc043b093486ee89fcea2fe",
+    "prototype/refresh_notebook.py": "62544f5d59f13ad0382f02433ab1d3dd0ec483b0f8345146e7699489f7cbc43b",
+    "prototype/core.py": "f7c72a80a0b37f5c9390ab9b8aa82317cc645d42a85bb21dfde0c20af300ef59",
+    "prototype/app.py": "7184152f92b89aede0a9cc6bad853fe3c9bf779b66012579837397f10e4a135e"
+  },
+  "safety": {
+    "passed": 7,
+    "total": 9,
+    "failed": [
+      2,
+      4
+    ]
+  },
+  "document_sha256": "32536931be8914b321e287b036ce72ee66d6de425f26cea8a75f9c16eedaf76d",
+  "repository_preparation": {
+    "reviewer_entry": "README.md",
+    "submission_links": "docs/submission-links.md",
+    "clean_clone_program_tests_passed": 11,
+    "git_exact_path_links_checked": 72,
+    "git_exact_path_link_errors": 0,
+    "public_csv_bytes_preserved_in_git": true,
+    "push_confirmed": false
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "scenario_inputs": {
+    "margin": 0.5,
+    "offer_cost": 3000,
+    "cohort": 10000,
+    "selected": 1000,
+    "treatment": 900,
+    "control": 100,
+    "loaded_fte_month": 350000,
+    "development_fte_months": 9,
+    "development": 3150000,
+    "monthly_operations": 150000,
+    "year_revenue": 60000
+  },
+  "sensitivity": [
+    {
+      "uplift": 0.05,
+      "revenue_year": 40000,
+      "treated": 900,
+      "spend": 2700000,
+      "saved_revenue": 1800000.0,
+      "revenue_per_budget": 0.6666666666666666,
+      "net_run": -1950000.0,
+      "net_first_campaign": -5100000.0,
+      "roi_first_campaign": -0.85
+    },
+    {
+      "uplift": 0.05,
+      "revenue_year": 60000,
+      "treated": 900,
+      "spend": 2700000,
+      "saved_revenue": 2700000.0,
+      "revenue_per_budget": 1.0,
+      "net_run": -1500000.0,
+      "net_first_campaign": -4650000.0,
+      "roi_first_campaign": -0.775
+    },
+    {
+      "uplift": 0.05,
+      "revenue_year": 80000,
+      "treated": 900,
+      "spend": 2700000,
+      "saved_revenue": 3600000.0,
+      "revenue_per_budget": 1.3333333333333333,
+      "net_run": -1050000.0,
+      "net_first_campaign": -4200000.0,
+      "roi_first_campaign": -0.7
+    },
+    {
+      "uplift": 0.1,
+      "revenue_year": 40000,
+      "treated": 900,
+      "spend": 2700000,
+      "saved_revenue": 3600000.0,
+      "revenue_per_budget": 1.3333333333333333,
+      "net_run": -1050000.0,
+      "net_first_campaign": -4200000.0,
+      "roi_first_campaign": -0.7
+    },
+    {
+      "uplift": 0.1,
+      "revenue_year": 60000,
+      "treated": 900,
+      "spend": 2700000,
+      "saved_revenue": 5400000.0,
+      "revenue_per_budget": 2.0,
+      "net_run": -150000.0,
+      "net_first_campaign": -3300000.0,
+      "roi_first_campaign": -0.55
+    },
+    {
+      "uplift": 0.1,
+      "revenue_year": 80000,
+      "treated": 900,
+      "spend": 2700000,
+      "saved_revenue": 7200000.0,
+      "revenue_per_budget": 2.6666666666666665,
+      "net_run": 750000.0,
+      "net_first_campaign": -2400000.0,
+      "roi_first_campaign": -0.4
+    },
+    {
+      "uplift": 0.15,
+      "revenue_year": 40000,
+      "treated": 900,
+      "spend": 2700000,
+      "saved_revenue": 5400000.0,
+      "revenue_per_budget": 2.0,
+      "net_run": -150000.0,
+      "net_first_campaign": -3300000.0,
+      "roi_first_campaign": -0.55
+    },
+    {
+      "uplift": 0.15,
+      "revenue_year": 60000,
+      "treated": 900,
+      "spend": 2700000,
+      "saved_revenue": 8100000.0,
+      "revenue_per_budget": 3.0,
+      "net_run": 1200000.0,
+      "net_first_campaign": -1950000.0,
+      "roi_first_campaign": -0.325
+    },
+    {
+      "uplift": 0.15,
+      "revenue_year": 80000,
+      "treated": 900,
+      "spend": 2700000,
+      "saved_revenue": 10800000.0,
+      "revenue_per_budget": 4.0,
+      "net_run": 2550000.0,
+      "net_first_campaign": -600000.0,
+      "roi_first_campaign": -0.1
+    },
+    {
+      "uplift": 0.2,
+      "revenue_year": 40000,
+      "treated": 900,
+      "spend": 2700000,
+      "saved_revenue": 7200000.0,
+      "revenue_per_budget": 2.6666666666666665,
+      "net_run": 750000.0,
+      "net_first_campaign": -2400000.0,
+      "roi_first_campaign": -0.4
+    },
+    {
+      "uplift": 0.2,
+      "revenue_year": 60000,
+      "treated": 900,
+      "spend": 2700000,
+      "saved_revenue": 10800000.0,
+      "revenue_per_budget": 4.0,
+      "net_run": 2550000.0,
+      "net_first_campaign": -600000.0,
+      "roi_first_campaign": -0.1
+    },
+    {
+      "uplift": 0.2,
+      "revenue_year": 80000,
+      "treated": 900,
+      "spend": 2700000,
+      "saved_revenue": 14400000.0,
+      "revenue_per_budget": 5.333333333333333,
+      "net_run": 4350000.0,
+      "net_first_campaign": 1200000.0,
+      "roi_first_campaign": 0.2
+    }
+  ],
+  "break_even_uplift": 0.1,
+  "break_even_with_operations": 0.10555555555555556,
+  "uplift_for_product_target_3": 0.15,
+  "power": {
+    "p0_retained": 0.75,
+    "p1_retained": 0.85,
+    "alpha": 0.05,
+    "power": 0.8,
+    "allocation_treated": 0.9,
+    "approx_n_total": 1583,
+    "approx_n_control": 159,
+    "mde_at_1000": 0.12787428506112533
+  },
+  "sam_scenario": {
+    "segment_clients": 700000,
+    "revenue_year": 60000,
+    "segment_revenue": 42000000000,
+    "churn_share": 0.15,
+    "manageable_share": 0.5,
+    "at_risk_revenue": 3150000000,
+    "value_at_10pct": 315000000,
+    "value_at_15pct": 472500000
+  }
+}
