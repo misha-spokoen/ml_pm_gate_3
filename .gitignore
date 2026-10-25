@@ -15,3 +15,17 @@ catboost_info/
 .env
 .env.*
 !.env.example
+
+# Local agent instructions and course materials
+AGENTS.md
+CLAUDE.md
+.agents/
+.codex/
+.obsidian/
+/PROJECT_CONTEXT.md
+*.pdf
+/Gate 1 Ideation — прогноз оттока premium-подписки брокерского приложения.md
+/gate1-*.md
+/gate2-*.md
+/cross-cutting-cases.md
+/docs/submission-links.md

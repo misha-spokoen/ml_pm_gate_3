@@ -224,9 +224,9 @@ Qini и площадь рассчитаны библиотекой scikit-uplift
 
 ## Источники и приложения
 
-- Условие ДЗ: [неделя 3, страницы 1–4](<Неделя 3_Управление ML продуктами_ДЗ_014f1b27.pdf>); объём документа ориентировочный, подробный план данных вынесен в приложение.
-- Определения и исходные цели: [Gate 2, C4, D3, E2, F1–F3](<Gate 2_ Concept Validation — удержание клиентов РКО Т‑Бизнеса.pdf>); [контекст проекта](PROJECT_CONTEXT.md), разделы 3–5.
-- Требования кейса B и шаблон плана данных: [сквозные кейсы, страницы 3 и 6](<Сквозные кейсы — инструкция для студентов_0141624a.pdf>).
+- Условие ДЗ: «Неделя 3. Управление ML-продуктами», страницы 1–4; объём документа ориентировочный, подробный план данных вынесен в приложение. PDF сохранён локально у автора.
+- Определения и исходные цели: «Gate 2: Concept Validation — удержание клиентов РКО Т‑Бизнеса», разделы C4, D3, E2, F1–F3; рабочий контекст проекта, разделы 3–5. Материалы сохранены локально у автора.
+- Требования кейса B и шаблон плана данных: «Сквозные кейсы — инструкция для студентов», страницы 3 и 6. PDF сохранён локально у автора.
 - Публичные данные: [UCI Iranian Churn](https://archive.ics.uci.edu/dataset/563/iranian+churn+dataset), [DOI](https://doi.org/10.24432/C5JW3Z), лицензия CC BY 4.0, доступ 25.10.2026; первичный файл, URL и контрольная сумма включены.
 - Методические определения: [CatBoost SHAP](https://catboost.ai/docs/en/concepts/shap-values), [Brier и калибровка](https://scikit-learn.org/stable/modules/calibration), [нормированный Qini](https://www.uplift-modeling.com/en/stable/api/metrics/qini_auc_score.html).
-- Все расчёты: [results](prototype/results/); первичные вводные и версии — [manifest.json](prototype/results/manifest.json); [экономика](prototype/results/economics.json), [метрики риска](prototype/results/risk_metrics.json), [сценарии безопасности](prototype/results/safety.json). Источники проекта сохранены без изменений, кроме актуализации `PROJECT_CONTEXT.md`.
+- Все расчёты: [results](prototype/results/); первичные вводные и версии — [manifest.json](prototype/results/manifest.json); [экономика](prototype/results/economics.json), [метрики риска](prototype/results/risk_metrics.json), [сценарии безопасности](prototype/results/safety.json). Первичные материалы курса сохранены локально без изменений.
